@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8ed;
+    color: #333;
+}
+
+header {
+    background: #6b1e16;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    height: 350px;
+    background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.hero div {
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #f28c28;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #6b1e16;
+    margin-bottom: 25px;
+}
+
+.food-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.food {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.food img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.food h3 {
+    margin: 12px 0 8px;
+    color: #6b1e16;
+}
+
+.food b {
+    display: block;
+    margin-top: 10px;
+    color: #e66b00;
+    font-size: 20px;
+}
+
+.offer {
+    background: #f28c28;
+    color: white;
+}
+
+.offer h2 {
+    color: white;
+}
+
+#about {
+    background: white;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #6b1e16;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f28c28;
+}
+
+#contact {
+    background: #fff1dc;
+}
+
+footer {
+    background: #6b1e16;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
